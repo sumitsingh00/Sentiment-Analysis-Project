@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 
 # Set MLflow Tracking URI & DAGsHub integration
 MLFLOW_TRACKING_URI = "https://dagshub.com/sumitsingh00/Sentiment-Analysis-Project.mlflow"
-dagshub.init(repo_owner="sumitsingh00", repo_name="Sentiment-Analysis-Project3", mlflow=True)
+dagshub.init(repo_owner="sumitsingh00", repo_name="Sentiment-Analysis-Project", mlflow=True)
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 mlflow.set_experiment("LoR Hyperparameter Tuning")
 

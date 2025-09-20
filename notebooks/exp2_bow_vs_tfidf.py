@@ -30,7 +30,7 @@ CONFIG = {
     "test_size": 0.2,
     "mlflow_tracking_uri": "https://dagshub.com/sumitsingh00/Sentiment-Analysis-Project.mlflow",
     "dagshub_repo_owner": "sumit singh",
-    "dagshub_repo_name": "Sentiment-Analysis-Project2",
+    "dagshub_repo_name": "Sentiment-Analysis-Project",
     "experiment_name": "Bow vs TfIdf"
 }
 
