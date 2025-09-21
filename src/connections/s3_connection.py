@@ -31,10 +31,10 @@ s3 = boto3.client("s3",
     region_name=os.getenv("aws_default_region")
 )
 
-print(s3.list_buckets())
+# print(s3.list_buckets())
 
-print(type(aws_access_key), type(aws_secret_key), type(bucket_name), type(region_name))
-print(aws_access_key, aws_secret_key, bucket_name, region_name)
+# print(type(aws_access_key), type(aws_secret_key), type(bucket_name), type(region_name))
+# print(aws_access_key, aws_secret_key, bucket_name, region_name)
 
 class s3_operations:
     def __init__(self, bucket_name, aws_access_key, aws_secret_key, region_name="eu-north-1"):
